@@ -8,6 +8,33 @@
         margin-top: 5px;
         width: 300px;
     }
+
+    .box-book {
+        min-height: 660px;
+        min-width: 440px;
+        margin-left: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .popup {
+        width: 80vw;
+        min-height: 70vh;
+    }
+
+    .popup-p {
+        font-size: 10pt;
+        width: 70vw;
+    }
+
+    .popup-button-div {
+        width: 90%;
+    }
+
+    .popup-button {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
